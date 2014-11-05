@@ -1,0 +1,170 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	/*height: 2620px;	*/
+	text-align: center;
+	background: #0d2b37;
+	border-top: solid 10px #00c690;
+	color: #212c38;
+	font-family: 'Trebuchet MS';
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a:hover, a:link, a:active, a:visited, a
+{
+	text-decoration: none;
+	background: none;
+}
+.headerList{
+	margin-top: 20px;
+	margin: 20px auto;
+}
+.headerList img{
+	vertical-align: middle;
+}
+.headerList li{
+	width: 150px;
+	height: 80px;
+	background: #072531;
+	color: #00c690;;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+
+.headerList li:hover{	
+	background: #00c690;
+	color: #072531;
+}
+.container {
+	width: 75%;
+	margin: 0 auto;
+	position: relative;
+}
+header h1 {
+	font-size: 44px;
+	color: #00c690;
+}	
+header span{
+	font-size: 24px;
+	color: #00c690;
+	float: right;
+	font-style: italic;
+}
+#content{
+	color: #FFF;
+	text-align: left;
+	position: relative;
+}
+#content h2{
+	color: #00c690;
+	font-size: 24px;
+}
+#content p{
+	font-size: 16px;
+}
+.left {
+	float: left;
+	position: relative;
+	max-width: 50%;
+}
+.right {
+	float: right;
+	position: relative;
+	max-width: 47%;
+}
+footer{
+	position: relative;
+	float: left;
+	background: #072531;
+	width: 100%;
+	color: #00c690;
+	
+}
+footer dl {
+	display: inline-block;
+	margin: 20px;
+}
+li.social {
+	display: inline-block;
+	width: 37px;
+	height: 37px;
+}
+li.social.face {
+	background: url(../img/sprite_social.png) 0 0;
+}
+li.social.gplus {
+	background: url(../img/sprite_social.png) -47px 0 no-repeat;
+}
+li.social.insta {
+	background: url(../img/sprite_social.png) -94px 0 no-repeat;
+}
+li.social.pinterest {
+	background: url(../img/sprite_social.png) -142px 0 no-repeat;
+}
+li.social.twitter {
+	background: url(../img/sprite_social.png) -189px 0 no-repeat;
+}
+li.social.tumblr {
+	background: url(../img/sprite_social.png) -235px 0 no-repeat;
+}
+
+li.social.vimeo {
+	background: url(../img/sprite_social.png) -282px 0 no-repeat;
+}
+
+.wrapper a {
+	background: #072531;
+	color:#00c690;
+}
+.wrapper a:hover {
+	background: #00c690;
+	color:#072531;
+}
+footer a{
+	text-decoration: none;
+	color:#1a4353; 					
+}
+footer a:hover{
+	color:#00c690;
+}
